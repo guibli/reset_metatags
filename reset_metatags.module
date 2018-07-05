@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains reset_metatags.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function reset_metatags_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the reset_metatags module.
+    case 'help.page.reset_metatags':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Reset metatags to default set in admin/config/search/metatag') . '</p>';
+      return $output;
+
+    default:
+  }
+}

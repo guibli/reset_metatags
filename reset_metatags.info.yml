@@ -1,0 +1,7 @@
+name: 'Reset metatags'
+type: module
+description: 'Reset metatags to default set in admin/config/search/metatag'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - metatag

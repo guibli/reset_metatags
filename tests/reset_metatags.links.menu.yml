@@ -1,0 +1,5 @@
+reset_metatags.reset_metatags_form:
+ title: 'Reset Metatags'
+ parent: system.admin_config_development
+ route_name: reset_metatags.reset_metatags_form
+ weight: 10

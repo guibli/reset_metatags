@@ -1,0 +1,7 @@
+reset_metatags.reset_metatags_form:
+  path: '/admin/config/reset_metatags'
+  defaults:
+    _form: 'Drupal\reset_metatags\Form\ResetMetatagsForm'
+    _title: 'Reset metatags'
+  requirements:
+    _permission: 'administer content types'
